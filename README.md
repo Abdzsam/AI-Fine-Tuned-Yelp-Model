@@ -72,16 +72,17 @@ lora_model.save_pretrained("./gpt_lora_output")
 # Evaluation
 After training, the model achieved a remarkable accuracy improvement on the test set, significantly outperforming its initial state.
 
-Results
-Initial Accuracy: 50%
-Final Accuracy: 92%
-Improvement: 40% increase in accuracy
-Conclusion
+## Results
+* Initial Accuracy: 50%
+* Final Accuracy: 92%
+* Improvement: 40% increase in accuracy
+  
+# Conclusion
 This project illustrates the power of fine-tuning pre-trained models with advanced techniques like LoRA to achieve high performance on specific tasks. The substantial accuracy improvement on the Yelp review classification task demonstrates the effectiveness of this approach.
 
-Future Work
+# Future Work
 Potential future improvements could include:
 
-Hyperparameter Optimization: Experimenting with different learning rates, batch sizes, and epochs.
-Model Exploration: Testing other transformer models for better baseline performance.
-Deployment: Creating a web interface to deploy the model for real-time sentiment analysis.
+* Hyperparameter Optimization: Experimenting with different learning rates, batch sizes, and epochs.
+* Model Exploration: Testing other transformer models for better baseline performance.
+* Deployment: Creating a web interface to deploy the model for real-time sentiment analysis.
